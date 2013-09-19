@@ -35,9 +35,11 @@
 #include <QString>
 #include <QLineEdit>
 
+QT_BEGIN_NAMESPACE
 namespace Ui {
 class AutoExpandableDialog;
 }
+QT_END_NAMESPACE
 
 class AutoExpandableDialog : public QDialog {
   Q_OBJECT
